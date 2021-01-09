@@ -36,6 +36,16 @@ public static void main(String[] args) {
 	// Clear the text inside the textfield
 	elementFirstNameTextBox.clear();
 	
+	WebElement button = driver.findElement(By.id("Button"));
+	if (button.isDisplayed()) {
+		button.click();
+	}
+	else {
+		System.out.println("Button is not displayed");
+	}
+	
+	
+	
 	
 	
 	
