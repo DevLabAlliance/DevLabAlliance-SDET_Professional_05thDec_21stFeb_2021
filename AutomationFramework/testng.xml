@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" >
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.leafBot.testcases.TC001_LoginLogOut" />
+			<class name="com.leafBot.testcases.TC002_LoginForFailure" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
